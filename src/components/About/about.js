@@ -3,6 +3,14 @@ import AOS from 'aos';
 class about extends Component {
   constructor(props, context) {
     super(props, context);
+    this.state = {
+      birthday: '15/05/1998',
+      phone: '0385531313',
+      email: 'royce@enclave.vn',
+      address: 'Hai Chau, Da Nang',
+      age: 22,
+      gender: 'Male',
+    };
     AOS.init();
   }
   componentWillReceiveProps() {
@@ -21,7 +29,6 @@ class about extends Component {
               Pellentesque blandit scelerisque metus et auctor. Cras
               pellentesque nisl at ullamcorper aliquam. Vivamus porttitor at
               urna eu posuere. Sed commodo est sed purus maximus convallis.
-             
             </p>
           </div>
           <div className="row">
@@ -37,22 +44,22 @@ class about extends Component {
               <p className="font-italic">
                 Aenean cursus commodo convallis. Suspendisse feugiat gravida
                 lorem eget feugiat. Proin gravida mattis consequat. Morbi
-                dapibus egestas sollicitudin. 
+                dapibus egestas sollicitudin.
               </p>
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
                     <li>
                       <i class="icofont-rounded-right"></i>
-                      <strong>Birthday:</strong> 15 May 1998
+                      <strong>Birthday:</strong> {this.state.birthday}
                     </li>
                     <li>
                       <i class="icofont-rounded-right"></i>
-                      <strong>Phone:</strong> 0385531313
+                      <strong>Phone:</strong> {this.state.phone}
                     </li>
                     <li>
                       <i class="icofont-rounded-right"></i>
-                      <strong>Email:</strong> lenguyensongtoan15598@gmail.com
+                      <strong>Email:</strong> {this.state.email}
                     </li>
                   </ul>
                 </div>
@@ -60,27 +67,27 @@ class about extends Component {
                   <ul>
                     <li>
                       <i class="icofont-rounded-right"></i>
-                      <strong>Birthday:</strong> 15 May 1998
+                      <strong>Age:</strong> {this.state.age}
                     </li>
                     <li>
                       <i class="icofont-rounded-right"></i>
-                      <strong>Phone:</strong> 0385531313
+                      <strong>Address:</strong> {this.state.address}
                     </li>
                     <li>
                       <i class="icofont-rounded-right"></i>
-                      <strong>Email:</strong> lenguyensongtoan15598@gmail.com
+                      <strong>Gender:</strong> {this.state.gender}
                     </li>
                   </ul>
                 </div>
               </div>
               <p>
-                Officiis eligendi itaque labore et dolorum mollitia officiis
-                optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                accusantium dolor incidunt officia tempore. Et eius omnis.
-                Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                consectetur qui quia repellendus itaque neque. Aliquid amet
-                quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-                culpa magni laudantium dolores.
+                I am highly passionate about IT and I have an educational
+                background in designing websites and managing databases. I have
+                technical skills as well as good interpersonal skills, enabling
+                me to interact with a wide range of clients. I am eager to be
+                challenged in order to grow and further improve my IT skills. My
+                biggest passion is in life is using my technical know-how to
+                benefit other people and organizations.
               </p>
             </div>
           </div>

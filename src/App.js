@@ -9,8 +9,10 @@ import './assets/css/style.css';
 import Gallery from "./components/Gallery/ImageGallery";
 import Header from "./components/Header/header";
 import Banner from "./components/Banner/banner";
-import About from "./components/About/about"
+import About from "./components/About/about";
+import Facts from "./components/Facts/facts"
 import './App.css';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <Header></Header>
       <Banner></Banner>
       <About></About>
+      <Facts></Facts>
       <Gallery></Gallery>
       
     </div>
