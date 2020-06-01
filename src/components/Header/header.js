@@ -8,6 +8,7 @@ class header extends Component {
           <div className="profile">
             <img
               src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-1/p160x160/84586349_2497005700520122_6866902001855234048_o.jpg?_nc_cat=109&_nc_sid=dbb9e7&_nc_ohc=5ET5wX9xAvYAX_SitED&_nc_ht=scontent.fdad2-1.fna&_nc_tp=6&oh=b2dcdc3d2d1a28df88c8d2547f519865&oe=5EF7BB0A"
+              alt=''
               className="img-fluid rounded-circle"
             ></img>
             <h1 className="text-light"> Song Toan Le</h1>
