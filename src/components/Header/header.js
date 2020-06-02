@@ -24,10 +24,10 @@ class header extends Component {
               </a>
             </div>
           </div>
-          <div className="nav-menu">
+          <nav className="nav-menu">
             <ul>
               <li class="active">
-                <a href="#home">
+                <a href="#hero">
                   <i class="bx bx-home"></i> <span>Home</span>
                 </a>
               </li>
@@ -52,7 +52,10 @@ class header extends Component {
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
+          <button type="button" class="mobile-nav-toggle d-xl-none">
+          <i class="icofont-navigation-menu"></i>
+        </button>
         </div>
       </header>
     );

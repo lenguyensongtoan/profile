@@ -10,18 +10,22 @@ import Gallery from "./components/Gallery/ImageGallery";
 import Header from "./components/Header/header";
 import Banner from "./components/Banner/banner";
 import About from "./components/About/about";
-import Facts from "./components/Facts/facts"
-import './App.css';
+import Facts from "./components/Facts/facts";
+import Skills from "./components/Skill/skills";
 
 
 function App() {
   return (
-    <div className="App">
+    <div >
+      <button type="button" className="mobile-nav-toggle d-xl-none">
+      <i className="icofont-navigation-menu"></i>
+    </button>
       <Header></Header>
       <Banner></Banner>
       <About></About>
       <Facts></Facts>
-      <Gallery></Gallery>
+      <Skills></Skills>
+      {/* <Gallery></Gallery> */}
       
     </div>
   );

@@ -14,7 +14,7 @@ class banner extends Component {
         id="hero"
         className="d-flex flex-column justify-content-center align-items-center"
       >
-        <div class="hero-container" data-aos="fade-in">
+        <div className="hero-container" data-aos="fade-in">
           <h1>Song Toan Le</h1>
           <p>I'm Developer</p>
         </div>
