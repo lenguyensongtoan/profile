@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 class header extends Component {
+  
+ 
   render() {
     return (
       <header id="header">
@@ -13,49 +15,46 @@ class header extends Component {
             ></img>
             <h1 className="text-light"> Song Toan Le</h1>
             <div className="social-links mt-3 text-center">
-              <a className="facebook">
+              <a href="https://www.facebook.com/songtoan15598" className="facebook">
                 <i className="bx bxl-facebook"></i>
               </a>
-              <a className="instagram">
+              <a href="https://www.instagram.com/lns.toan/" className="instagram">
                 <i className="bx bxl-instagram"></i>
               </a>
-              <a className="linkedin">
+              <a href="https://www.linkedin.com/in/song-to%C3%A0n-l%C3%AA-nguy%E1%BB%85n-9b8a3a193/" className="linkedin">
                 <i className="bx bxl-linkedin"></i>
               </a>
             </div>
           </div>
           <nav className="nav-menu">
             <ul>
-              <li class="active">
+              <li >
                 <a href="#hero">
-                  <i class="bx bx-home"></i> <span>Home</span>
+                  <i className="bx bx-home"></i> <span>Home</span>
                 </a>
               </li>
               <li>
-                <a href="#about">
-                  <i class="bx bx-user"></i> <span>About</span>
+                <a href="#about" >
+                  <i className="bx bx-user"></i> <span>About</span>
                 </a>
               </li>
               <li>
                 <a href="#resume">
-                  <i class="bx bx-file-blank"></i> <span>Resume</span>
+                  <i className="bx bx-file-blank"></i> <span>Resume</span>
                 </a>
               </li>
               <li>
                 <a href="#portfolio">
-                  <i class="bx bx-book-content"></i> Portfolio
+                  <i className="bx bx-book-content"></i> Portfolio
                 </a>
               </li>
               <li>
-                <a href="#contact">
-                  <i class="bx bx-envelope"></i> Contact
+                <a href="#testimonials">
+                  <i className="bx bx-envelope"></i> People Saying
                 </a>
               </li>
             </ul>
           </nav>
-          <button type="button" class="mobile-nav-toggle d-xl-none">
-          <i class="icofont-navigation-menu"></i>
-        </button>
         </div>
       </header>
     );

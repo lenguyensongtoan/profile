@@ -49,22 +49,22 @@ class skills extends Component {
             </div>
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div className="progress">
-                <span class="skill">Java</span>
-                <div class="progress-bar-wrap">
+                <span className="skill">Java</span>
+                <div className="progress-bar-wrap">
                   <Progress percent={50} progress color="blue"></Progress>
                 </div>
               </div>
 
-              <div class="progress">
-                <span class="skill">Git</span>
-                <div class="progress-bar-wrap">
+              <div className="progress">
+                <span className="skill">Git</span>
+                <div className="progress-bar-wrap">
                   <Progress percent={70} progress color="blue"></Progress>
                 </div>
               </div>
 
-              <div class="progress">
-                <span class="skill">Basic English </span>
-                <div class="progress-bar-wrap">
+              <div className="progress">
+                <span className="skill">Basic English </span>
+                <div className="progress-bar-wrap">
                   <Progress percent={75} progress color="blue"></Progress>
                 </div>
               </div>

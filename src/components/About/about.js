@@ -34,8 +34,8 @@ class about extends Component {
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
               <img
-                src="https://img.thuthuatphanmem.vn/uploads/2018/09/19/avatar-facebook-chat-4_105604005.jpg"
-                class="img-fluid"
+                src="https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/p960x960/84586349_2497005700520122_6866902001855234048_o.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=9j7EwF4gSwIAX-gpGd0&_nc_ht=scontent.fhan4-1.fna&_nc_tp=6&oh=ccdcd37009dba956b0ac22dbc4132530&oe=5EFAE486"
+                className="img-fluid"
                 alt=""
               />
             </div>
@@ -50,15 +50,15 @@ class about extends Component {
                 <div className="col-lg-6">
                   <ul>
                     <li>
-                      <i class="icofont-rounded-right"></i>
+                      <i className="icofont-rounded-right"></i>
                       <strong>Birthday:</strong> {this.state.birthday}
                     </li>
                     <li>
-                      <i class="icofont-rounded-right"></i>
+                      <i className="icofont-rounded-right"></i>
                       <strong>Phone:</strong> {this.state.phone}
                     </li>
                     <li>
-                      <i class="icofont-rounded-right"></i>
+                      <i className="icofont-rounded-right"></i>
                       <strong>Email:</strong> {this.state.email}
                     </li>
                   </ul>
@@ -66,15 +66,15 @@ class about extends Component {
                 <div className="col-lg-6">
                   <ul>
                     <li>
-                      <i class="icofont-rounded-right"></i>
+                      <i className="icofont-rounded-right"></i>
                       <strong>Age:</strong> {this.state.age}
                     </li>
                     <li>
-                      <i class="icofont-rounded-right"></i>
+                      <i className="icofont-rounded-right"></i>
                       <strong>Address:</strong> {this.state.address}
                     </li>
                     <li>
-                      <i class="icofont-rounded-right"></i>
+                      <i className="icofont-rounded-right"></i>
                       <strong>Gender:</strong> {this.state.gender}
                     </li>
                   </ul>
