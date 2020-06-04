@@ -23,10 +23,10 @@ class Resume extends PureComponent {
                         <div className="col-lg-6" data-aos="fade-up">
                             <h3 className="resume-title">Sumary</h3>
                             <div className="resume-item pb-0">
-                                <h4>Alex Smith</h4>
+                                <h4>Song Toan Le</h4>
                                 <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
                                 <ul>
-                                    <li>Portland par 127,Orlando, FL</li>
+                                    <li>Xuan Thuy - Le Thuy - Quang Binh</li>
                                     <li>(123) 456-7891</li>
                                     <li><a href="/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="ec8d80858f89c28e8d9e87808995ac89948d819c8089c28f8381">[email&#160;protected]</a></li>
                                 </ul>
