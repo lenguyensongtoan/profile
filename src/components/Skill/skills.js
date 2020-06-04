@@ -7,7 +7,7 @@ class skills extends Component {
     super(props, context);
     AOS.init();
   }
-  componentWillReceiveProps() {
+  UNSAFE_componentWillReceiveProps() {
     AOS.refresh();
   }
   render() {

@@ -13,7 +13,7 @@ class about extends Component {
     };
     AOS.init();
   }
-  componentWillReceiveProps() {
+  UNSAFE_componentWillReceiveProps() {
     AOS.refresh();
   }
   render() {
