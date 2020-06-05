@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 class header extends Component {
-  state = {
-    isActive: false,
-  };
-  onActive = () => {
-    this.setState({
-      isActive: true,
-    });
-    console.log('state: ', this.state);
-  };
+  state = { activeItem: 'home' }
 
+  handleItemClick = (name) => this.setState({ activeItem: name })
   render() {
+    const { activeItem } = this.state
     return (
       <header id="header">
         <div className="d-flex flex-column">
@@ -43,29 +37,43 @@ class header extends Component {
               </a>
             </div>
           </div>
-
           <Nav navbar className="nav-menu">
-            <NavItem>
+            <NavItem
+             active={activeItem === 'home'}
+             onClick={() => this.handleItemClick('home')}
+            >
               <NavLink href="#hero">
                 <i className="bx bx-home"></i> <span>Home</span>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem
+                active={activeItem === 'about'}
+                onClick={() => this.handleItemClick('about')}
+            >
               <NavLink href="#about">
                 <i className="bx bx-user"></i> <span>About</span>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem
+                active={activeItem === 'resume'}
+                onClick={() => this.handleItemClick('resume')}
+            >
               <NavLink href="#resume">
                 <i className="bx bx-file-blank"></i> <span>Resume</span>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem
+              active={activeItem === 'portfolio'}
+              onClick={() => this.handleItemClick('portfolio')}
+            >
               <NavLink href="#portfolio">
                 <i className="bx bx-book-content"></i> Portfolio
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem
+               active={activeItem === 'testimonials'}
+               onClick={() => this.handleItemClick('testimonials')}
+            >
               <NavLink href="#testimonials">
                 <i className="bx bx-envelope"></i> People Saying
               </NavLink>

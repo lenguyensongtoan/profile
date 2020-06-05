@@ -130,11 +130,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 .nav-menu {
   padding-top: 30px;
+  margin-left: 20%;
 }
 
 .nav-menu * {
-  margin: 0;
-  padding: 0;
+ 
   list-style: none;
 }
 
@@ -167,10 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
   color: #149ddd;
 }
-.active{
-  text-decoration: none;
-  color: #fff;
-}
+
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
