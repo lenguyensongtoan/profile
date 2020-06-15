@@ -38,14 +38,14 @@ class Resume extends PureComponent {
                 </p>
                 <ul>
                   <li>Xuan Thuy - Le Thuy - Quang Binh</li>
-                  <li>(123) 456-7891</li>
+                  <li>(+84) 385 331 313</li>
                   <li>
                     <a
-                      href="/cdn-cgi/l/email-protection"
+                      href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbtwgfHNZMWMvLWHZLGfNpWvnvvvBmFfmpfnhNMwBWkGtcZskrxtcKmwxZkxqdnzqGLHZB"
                       className="__cf_email__"
                       data-cfemail="ec8d80858f89c28e8d9e87808995ac89948d819c8089c28f8381"
                     >
-                      [email&#160;protected]
+                      lenguyensongtoan15598@gmail.com
                     </a>
                   </li>
                 </ul>
