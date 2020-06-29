@@ -3,9 +3,11 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
   color: #272829;
- 
+}
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -18,7 +20,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif !important
 }
 
 /*--------------------------------------------------------------
@@ -27,8 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
  
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
@@ -39,10 +41,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i {
-  font-size: 24px;
+  font-size: 26px;
   position: absolute;
-  top: 7px;
-  left: 8px;
+  top: 13px;
+  left: 13px;
   
 }
 
@@ -130,11 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 .nav-menu {
   padding-top: 30px;
+  margin-left: 20%;
 }
 
 .nav-menu * {
-  margin: 0;
-  padding: 0;
+ 
   list-style: none;
 }
 
@@ -167,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
   color: #149ddd;
 }
+
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
