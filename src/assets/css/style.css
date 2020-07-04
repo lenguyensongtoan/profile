@@ -338,6 +338,7 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+  padding-top: 0%;
 }
 
 .facts .count-box {
@@ -390,6 +391,9 @@ section {
   height: 50px;
   display: block;
   background: none;
+}
+.progress{
+  margin-bottom: 15px;
 }
 
 .skills .progress .skill {

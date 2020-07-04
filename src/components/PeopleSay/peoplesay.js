@@ -8,10 +8,7 @@ class Peoplesay extends PureComponent {
           <div className="section-title" data-aos="fade-up" >
             <h2>People Saying</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            Here are some comments from my friends, colleagues about me, us projects when I was in university and company.
             </p>
           </div>
           <div className="row" data-aos="fade-up">
@@ -23,9 +20,9 @@ class Peoplesay extends PureComponent {
                   src="https://e-travel-s3-bucket.s3.ap-southeast-1.amazonaws.com/image/7ab7245a2932e760f7cf66631163906d"
                   alt=""
                 />
-                <h5>Royce</h5>
+                <h5>Kii</h5>
                 <p className="font-weight-light mb-0">
-                  it sint consectetur velit. Quisquam quos quisquam cupiditate.
+                  He is very friendly and kind, he always ready with my any questions. We have worked in many projects at Duy Tan university
                 </p>
               </div>
             </div>
@@ -39,9 +36,7 @@ class Peoplesay extends PureComponent {
                 />
                 <h5>Will</h5>
                 <p className="font-weight-light mb-0">
-                  Magnam dolores commodi suscipit. Necessitatibus eius
-                  consequatur ex aliquid fuga eum quidem. Sit sint consectetur
-                  velit. Quisquam quos quisquam cupiditate.
+                  We were in eTravel projects. We hardly worked wduring in project so we got more experience from this project.
                 </p>
               </div>
             </div>
@@ -55,8 +50,7 @@ class Peoplesay extends PureComponent {
                 />
                 <h5>Quang</h5>
                 <p className="font-weight-light mb-0">
-                  Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste
-                  officiis commodi quidem hic quas.
+                 We have experience with ReactJS and work together in the project at Bootcamp XIII of Enclave Company
                 </p>
               </div>
             </div>

@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import AOS from 'aos';
+import React, { Component } from "react";
+import AOS from "aos";
 class about extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      birthday: '15/05/1998',
-      phone: '0385531313',
-      email: 'royce@enclave.vn',
-      address: 'Hai Chau, Da Nang',
+      birthday: "15/05/1998",
+      phone: "0385531313",
+      email: "lenguyensongtoan15598@gmail.com",
+      address: "Hai Chau, Da Nang",
       age: 22,
-      gender: 'Male',
+      gender: "Male",
     };
     AOS.init();
   }
@@ -23,12 +23,12 @@ class about extends Component {
           <div className="section-title">
             <h2>About me</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum a lorem magna. Fusce tristique lorem ac diam pulvinar
-              gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque blandit scelerisque metus et auctor. Cras
-              pellentesque nisl at ullamcorper aliquam. Vivamus porttitor at
-              urna eu posuere. Sed commodo est sed purus maximus convallis.
+              I am a hard-working college student (CMU in Software Engineering)
+              currently attending Duy Tan University. Throughout my academic
+              career, I have been consistently praised as focused by my
+              professors and peers. While working on academic and
+              extracurricular projects, I have developed proven communication,
+              leadership, technical skills, teamwork skills.
             </p>
           </div>
           <div className="row">
@@ -42,9 +42,7 @@ class about extends Component {
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>Web Developer</h3>
               <p className="font-italic">
-                Aenean cursus commodo convallis. Suspendisse feugiat gravida
-                lorem eget feugiat. Proin gravida mattis consequat. Morbi
-                dapibus egestas sollicitudin.
+                Some basic information about me:  
               </p>
               <div className="row">
                 <div className="col-lg-6">
@@ -80,6 +78,7 @@ class about extends Component {
                   </ul>
                 </div>
               </div>
+            
               <p>
                 I am highly passionate about IT and I have an educational
                 background in designing websites and managing databases. I have

@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import AOS from 'aos';
-import { Progress } from 'semantic-ui-react';
-import 'semantic-ui-css/semantic.min.css';
+import React, { Component } from "react";
+import AOS from "aos";
+import { Progress } from "semantic-ui-react";
+import "semantic-ui-css/semantic.min.css";
 class skills extends Component {
   constructor(props, context) {
     super(props, context);
@@ -17,10 +17,11 @@ class skills extends Component {
           <div className="section-title">
             <h2>Skills</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Throughout my academic career, I have been consistently praised as
+              focused by my professors and peers. While working on academic and
+              extracurricular projects, I have developed proven communication,
+              leadership, technical skills, teamwork skills. I have experience
+              with ReactJS, React Native, SQL Server, .NET, HTML, CSS and some technical.
             </p>
           </div>
 
@@ -29,7 +30,7 @@ class skills extends Component {
               <div className="progress">
                 <span className="skill">HTML</span>
                 <div className="progress-bar-wrap">
-                  <Progress percent={90} progress color="blue"></Progress>
+                  <Progress percent={80} progress color="blue"></Progress>
                 </div>
               </div>
 
@@ -41,7 +42,7 @@ class skills extends Component {
               </div>
 
               <div className="progress">
-                <span className="skill">JavaScript</span>
+                <span className="skill">ReactJS</span>
                 <div className="progress-bar-wrap">
                   <Progress percent={75} progress color="blue"></Progress>
                 </div>
@@ -49,9 +50,9 @@ class skills extends Component {
             </div>
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div className="progress">
-                <span className="skill">Java</span>
+                <span className="skill">React Native</span>
                 <div className="progress-bar-wrap">
-                  <Progress percent={50} progress color="blue"></Progress>
+                  <Progress percent={40} progress color="blue"></Progress>
                 </div>
               </div>
 

@@ -16,7 +16,7 @@ class banner extends Component {
       >
         <div className="hero-container" data-aos="fade-in">
           <h1>Song Toan Le</h1>
-          <p>I'm Developer</p>
+          <p>I'm Web Developer</p>
         </div>
       </section>
     );

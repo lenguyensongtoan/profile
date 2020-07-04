@@ -69,7 +69,7 @@ class header extends Component {
               onClick={() => this.handleItemClick('portfolio')}
             >
               <NavLink href="#portfolio">
-                <i className="bx bx-book-content"></i> Portfolio
+                <i className="bx bx-book-content"></i> Activities
               </NavLink>
             </NavItem>
             <NavItem

@@ -1,5 +1,5 @@
-import React, { PureComponent } from 'react';
-import AOS from 'aos';
+import React, { PureComponent } from "react";
+import AOS from "aos";
 
 class Resume extends PureComponent {
   constructor(props) {
@@ -16,10 +16,9 @@ class Resume extends PureComponent {
           <div className="section-title">
             <h2>Resume</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              I'm a Web Developer working with HTML, CSS and JavaScript. In
+              additional, I have exprience with ReactJS. Here are some my basic
+              information.
             </p>
           </div>
 
@@ -30,10 +29,9 @@ class Resume extends PureComponent {
                 <h4>Song Toan Le</h4>
                 <p>
                   <em>
-                    Innovative and deadline-driven Graphic Designer with 3+
-                    years of experience designing and developing user-centered
-                    digital/print marketing material from initial concept to
-                    final, polished deliverable.
+                    I graduated from Duy Tan University's IT field with a GPA of
+                    3.31 / 4. In addition, I had 6 months of work at Enclave
+                    Company with professional & English environment.
                   </em>
                 </p>
                 <ul>
@@ -53,80 +51,64 @@ class Resume extends PureComponent {
 
               <h3 className="resume-title">Education</h3>
               <div className="resume-item">
-                <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                <h5>2015 - 2016</h5>
+                <h4>Duy Tan University</h4>
+                <h5>2016 - 2020</h5>
                 <p>
-                  <em>Rochester Institute of Technology, Rochester, NY</em>
+                  <em>254 Nguyen Van Linh, Hai Chau, Danang</em>
                 </p>
-                <p>
-                  Qui deserunt veniam. Et sed aliquam labore tempore sed
-                  quisquam iusto autem sit. Ea vero voluptatum qui ut
-                  dignissimos deleniti nerada porti sand markend
-                </p>
+                <p>Major: Software Engineering (International Program) </p>
+                GPA: 3.31/4
               </div>
               <div className="resume-item">
-                <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                <h5>2010 - 2014</h5>
+                <h4>Certifications &amp; Achieves</h4>
+                <h5>Summer 2019</h5>
                 <p>
-                  <em>Rochester Institute of Technology, Rochester, NY</em>
+                  <em>Axon Active Scrum completion course</em>
                 </p>
+                <h5>Summer 2020</h5>
                 <p>
-                  Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
-                  reiciendis et quis Eius vel ratione eius unde vitae rerum
-                  voluptates asperiores voluptatem Earum molestiae consequatur
-                  neque etlon sader mart dila
+                  <em>Bootcamp XIII of Enclave completion course</em>
                 </p>
               </div>
             </div>
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <h3 className="resume-title">Professional Experience</h3>
               <div className="resume-item">
-                <h4>Senior graphic design specialist</h4>
-                <h5>2019 - Present</h5>
+                <h4>Chatbot for IT Jobs (at Duy Tan University)</h4>
+                <h5>08/2019 - 12/2019</h5>
                 <p>
-                  <em>Experion, New York, NY </em>
+                  <em> at Duy Tan University </em>
                 </p>
                 <ul>
+                  <li>Front-end Developer & Scrum Master</li>
+
+                  <li>Technology: HTML5, CSS3, SQL Server, ASP.NET</li>
+                  <li>Tool: Dialog Flow of Google</li>
                   <li>
-                    Lead in the design, development, and implementation of the
-                    graphic, layout, and production communication materials
-                  </li>
-                  <li>
-                    Delegate tasks to the 7 members of the design team and
-                    provide counsel on all aspects of the project.{' '}
-                  </li>
-                  <li>
-                    Supervise the assessment of all graphic materials in order
-                    to ensure quality and accuracy of the design
-                  </li>
-                  <li>
-                    Oversee the efficient use of production project budgets
-                    ranging from $2,000 - $25,000
+                    The project consults to choose schools and career
+                    orientation in the IT sector
                   </li>
                 </ul>
               </div>
               <div className="resume-item">
-                <h4>Graphic design specialist</h4>
-                <h5>2017 - 2018</h5>
+                <h4>eTravel (Traveling System)</h4>
+                <h5>02/2020 - 05/2020</h5>
                 <p>
-                  <em>Stepping Stone Advertising, New York, NY</em>
+                  <em>at Bootcamp Program of Enclaves</em>
                 </p>
                 <ul>
+                  <li>Front-end Developer</li>
+                  <li>Technology: ReactJS, MongoDB, NodeJS, Swift</li>
+                  <li>Source Version Control: Git</li>
+                  <li>Process: Scrum</li>
                   <li>
-                    Developed numerous marketing programs (logos,
-                    brochures,infographics, presentations, and advertisements).
-                  </li>
-                  <li>
-                    Managed up to 5 projects or tasks at a given time while
-                    under pressure
-                  </li>
-                  <li>
-                    Recommended and consulted with clients on the most
-                    appropriate graphic design
-                  </li>
-                  <li>
-                    Created 4+ design presentations and proposals a month for
-                    clients and account managers
+                    "eTravel" is a web application that helps travelers easy to
+                    explore places in Da Nang. If users want to travel in Da
+                    Nang but they don’t have any experience traveling this
+                    place, the systems generate a schedule based on your needs.
+                    Users can track the schedule on this mobile and warning you
+                    whenever the weather’s bad. Users can also add the new
+                    special spot/location.
                   </li>
                 </ul>
               </div>
