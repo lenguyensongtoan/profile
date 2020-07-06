@@ -13,7 +13,7 @@ class header extends Component {
         <div className="d-flex flex-column">
           <div className="profile">
             <img
-              src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-1/p160x160/84586349_2497005700520122_6866902001855234048_o.jpg?_nc_cat=109&_nc_sid=dbb9e7&_nc_ohc=VCfEUHA3lGYAX_SYgkH&_nc_ht=scontent.fdad2-1.fna&_nc_tp=6&oh=d6c572070f3c0608f2ea1dee4fb440df&oe=5F1F480A"
+              src="https://lh3.googleusercontent.com/-Jw4fcWOAgZc/V26KdMeU92I/AAAAAAAABao/YP6GmkOme_A0IdUFObLxOzmJdgE3s1PtgCEwYBhgLKtMDAL1Ocqy6H5kkJNvy5K-v_X_jllhzxzJ2e1SMeHiHfYX1ICh_n33PbNfwUXYfmNvve0kCKdtUpyA8Yp3FGtFHE1AtssKo6saNJ1J-cVVXBMm0AbHNL8WBcTWsNYXY3-C-_gt2S98HRJTAPB--5bGaq5lzLRq9R50A22xoYpe1G1nMTERkdwqGhqCCbSHGDlENCZfEwk4depOtiFkUZrCQPKqfZ0v7Q_Sc_ow1CBdRAT45IFTlcUwKmLifkk5qr2ZZ0VZI1emfiZfBku76ZRnY8K35C6Q3BkQOpJl8PPZW386zMuUBlQ0Io67RLl-ZVt1SXIUPg6IZlxuQ-3Jx19YGNbyoKDVzfDEnbEZGIsacA-NkE1OtTUS4YCYMz2ZJ7UvxG7CrJrKC25ccZuA9dF74fbIja5MTgbhHHETGgsfUYa7JvxUAGd80HYbYEGGymkw4IMsBYknwIq5eOeeVaIY9P8lmt_LSIAqFGqNHHSsl7K_GpUHvTDg8-guvooVaeOeOLVuTe6RsVrWFFSZMEp6MBHSQs0bSbSJd2VFbwZ71hdsc1X_oosCJ5lMxsCTPg5odW1zyBSrgGlNqwiK5lb_tmU_rSvyTzbJo6Cz53ijmC9eCo7kw75SH-AU/w139-h140-p/IMG_1097.jpg"
               alt=""
               className="img-fluid rounded-circle"
             ></img>

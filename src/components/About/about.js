@@ -32,9 +32,9 @@ class about extends Component {
             </p>
           </div>
           <div className="row">
-            <div className="col-lg-4" data-aos="fade-right">
+            <div className="col-lg-4" data-aos="fade-right" >
               <img
-                src="https://scontent.fhan4-1.fna.fbcdn.net/v/t1.0-9/p960x960/84586349_2497005700520122_6866902001855234048_o.jpg?_nc_cat=109&_nc_sid=85a577&_nc_ohc=9j7EwF4gSwIAX-gpGd0&_nc_ht=scontent.fhan4-1.fna&_nc_tp=6&oh=ccdcd37009dba956b0ac22dbc4132530&oe=5EFAE486"
+                src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.0-9/21106808_1913545825532782_5129680507833782939_n.jpg?_nc_cat=103&_nc_sid=7aed08&_nc_ohc=YA6IRp4F9t4AX9YW3Fd&_nc_ht=scontent.fdad1-1.fna&oh=73ff88a3120ceaeda20c1aa7f807a904&oe=5F270315"
                 className="img-fluid"
                 alt=""
               />
