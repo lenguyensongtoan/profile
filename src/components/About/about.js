@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import AOS from "aos";
+import avatar from "../../assets/images/avatar.jpg"
 class about extends Component {
   constructor(props, context) {
     super(props, context);
@@ -34,7 +35,7 @@ class about extends Component {
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right" >
               <img
-                src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.0-9/106932526_2626817167538974_320234132691808515_o.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=ig_Fs-4wdSYAX8j20G-&_nc_ht=scontent.fdad1-1.fna&oh=3e6c7e423e35d49c59ad3e911b3a08d9&oe=5F858CAA"
+                src={avatar}
                 className="img-fluid"
                 alt=""
               />
